@@ -59,25 +59,29 @@ body {
 }
 
 .form {
+    background-color: whitesmoke;
     width: 60vw;
+    text-align: left;
 }
 
 .form-banner {
     height: 30vh;
-
-}
-.form-banner-text {
     padding-top: 100px;
+    padding-left: 3vw;
 }
 
 .form-body {
+    background-color: white;
     height: 40vh;
+    padding-left: 3vw;
 }
 
 .form-body-inputs {
     border: 0px;
+    padding: 0px;
 }
 
 .form-action {
     height: 30vh;
+    padding-left: 3vw;
 }
