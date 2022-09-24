@@ -1,4 +1,7 @@
 /* style.css */
+:root {
+    --color: #596D48;
+}
 
 @font-face {
     font-family: norse-bold;
@@ -62,9 +65,13 @@ body {
     background-color: whitesmoke;
     width: 60vw;
     text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .form-banner {
+    font-weight: 600;
     height: 30vh;
     padding-top: 100px;
     padding-left: 3vw;
@@ -79,6 +86,20 @@ body {
 .form-body-inputs {
     border: 0px;
     padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.form-item {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form-create {
+    background-color: var(--color);
+    margin-left: 3vw;
 }
 
 .form-action {
