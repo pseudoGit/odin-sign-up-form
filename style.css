@@ -61,6 +61,10 @@ body {
     top: 85vh;
 }
 
+.header-bg-disclaimer a {
+    color: white;
+}
+
 .form {
     background-color: whitesmoke;
     width: 60vw;
@@ -99,10 +103,22 @@ body {
 
 .form-create {
     background-color: var(--color);
+    margin-top: 1vw;
     margin-left: 3vw;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .form-action {
     height: 30vh;
     padding-left: 3vw;
+}
+
+.form-action-login a {
+    color: var(--color);
 }
