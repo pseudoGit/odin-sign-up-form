@@ -76,15 +76,21 @@ body {
 
 .form-banner {
     font-weight: 600;
-    height: 30vh;
     padding-top: 100px;
     padding-left: 3vw;
 }
 
 .form-body {
     background-color: white;
-    height: 40vh;
+    height: 25vh;
+    padding-top: 1vh;
     padding-left: 3vw;
+}
+
+.form-body-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1vw;
 }
 
 .form-body-inputs {
@@ -101,17 +107,21 @@ body {
     flex-flow: column wrap;
 }
 
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
 .form-create {
     background-color: var(--color);
+    color: white;
+    font-size: 16px;
     margin-top: 1vw;
+    margin-bottom: 1vw;
     margin-left: 3vw;
     border: none;
     border-radius: 6px;
     padding: 10px 40px;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
 }
 
 .form-action {
